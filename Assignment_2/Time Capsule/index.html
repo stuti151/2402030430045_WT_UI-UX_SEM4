@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Capsule Login</title>
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+  </head>
+  <body>
+    <main class="desktop">
+      <div class="container">
+        <h1 class="app-title">Time Capsule</h1>
+        <section class="login">
+          <h2 class="login-title">Login</h2>
+          <form class="login-form" id="loginForm">
+            <div class="form-field">
+              <label for="email" class="form-label">E-mail</label>
+              <input
+                id="email"
+                class="form-input"
+                placeholder="Enter your email"
+                type="email"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="password" class="form-label">Password</label>
+              <div class="password-input-wrapper">
+                <input
+                  id="password"
+                  class="form-input"
+                  placeholder="Enter your password"
+                  type="password"
+                  required
+                />
+                <button
+                  type="button"
+                  class="toggle-password"
+                  aria-label="Toggle password visibility"
+                  onclick="togglePasswordVisibility()"
+                ></button>
+              </div>
+            </div>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+
+            <button type="submit" class="submit-button">
+              <span class="button-text">Login</span>
+            </button>
+          </form>
+          <p class="alternative-login">or login with</p>
+          <button
+            type="button"
+            class="google-login"
+            onclick="loginWithGoogle()"
+          >
+            <img class="google-icon" src="img/SSO-icon.svg" alt="Google logo" />
+            <span class="google-text">Login with Google</span>
+          </button>
+        </section>
+      </div>
+    </main>
+    <script src="js/auth.js"></script>
+  </body>
+</html>

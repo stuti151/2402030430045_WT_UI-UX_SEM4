@@ -1,0 +1,369 @@
+.people-profile {
+  background-color: #3d3b40;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.people-profile .div {
+  background-color: #3d3b40;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.people-profile .frame {
+  position: absolute;
+  width: 1440px;
+  height: 115px;
+  top: 0;
+  left: 0;
+  background-color: #bfcfe7;
+}
+
+.people-profile .text-wrapper {
+  position: absolute;
+  width: 429px;
+  height: 80px;
+  top: 22px;
+  left: 86px;
+  font-family: "Gabriela-Regular", Helvetica;
+  font-weight: 400;
+  color: #475569;
+  font-size: 60px;
+  letter-spacing: 0.9px;
+  line-height: 20px;
+}
+
+.people-profile .div-wrapper {
+  position: absolute;
+  width: 170px;
+  height: 53px;
+  top: 31px;
+  left: 651px;
+  background-color: #475569;
+  border-radius: 47px;
+  overflow: hidden;
+}
+
+.people-profile .text-wrapper-2 {
+  position: absolute;
+  height: 20px;
+  top: 16px;
+  left: 32px;
+  font-family: "Gabriela-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.48px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.people-profile .frame-2 {
+  position: absolute;
+  width: 170px;
+  height: 53px;
+  top: 31px;
+  left: 853px;
+  background-color: #475569;
+  border-radius: 47px;
+  overflow: hidden;
+}
+
+.people-profile .text-wrapper-3 {
+  position: absolute;
+  height: 20px;
+  top: 16px;
+  left: 7px;
+  font-family: "Gabriela-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.48px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.people-profile .frame-3 {
+  position: absolute;
+  width: 170px;
+  height: 53px;
+  top: 31px;
+  left: 1055px;
+  background-color: #475569;
+  border-radius: 47px;
+  overflow: hidden;
+}
+
+.people-profile .frame-4 {
+  position: absolute;
+  width: 170px;
+  height: 53px;
+  top: 31px;
+  left: 1242px;
+  background-color: #475569;
+  border-radius: 47px;
+  overflow: hidden;
+}
+
+.people-profile .text-wrapper-4 {
+  position: absolute;
+  height: 20px;
+  top: 16px;
+  left: 54px;
+  font-family: "Gabriela-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.48px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.people-profile .image {
+  position: absolute;
+  width: 224px;
+  height: 290px;
+  top: 333px;
+  left: 32px;
+  object-fit: cover;
+}
+
+.people-profile .img {
+  position: absolute;
+  width: 224px;
+  height: 290px;
+  top: 333px;
+  left: 321px;
+  object-fit: cover;
+}
+
+.people-profile .image-2 {
+  position: absolute;
+  width: 224px;
+  height: 290px;
+  top: 333px;
+  left: 610px;
+}
+
+.people-profile .image-3 {
+  position: absolute;
+  width: 224px;
+  height: 290px;
+  top: 333px;
+  left: 899px;
+  object-fit: cover;
+}
+
+.people-profile .image-4 {
+  position: absolute;
+  width: 224px;
+  height: 290px;
+  top: 333px;
+  left: 1188px;
+  object-fit: cover;
+}
+
+.people-profile .image-5 {
+  position: absolute;
+  width: 131px;
+  height: 130px;
+  top: 159px;
+  left: 30px;
+  object-fit: cover;
+}
+
+.people-profile .image-6 {
+  position: absolute;
+  width: 188px;
+  height: 188px;
+  top: 703px;
+  left: 72px;
+  object-fit: cover;
+}
+
+.people-profile .image-7 {
+  position: absolute;
+  width: 188px;
+  height: 188px;
+  top: 703px;
+  left: 349px;
+}
+
+.people-profile .image-8 {
+  position: absolute;
+  width: 188px;
+  height: 188px;
+  top: 703px;
+  left: 626px;
+}
+
+.people-profile .image-9 {
+  position: absolute;
+  width: 188px;
+  height: 188px;
+  top: 703px;
+  left: 903px;
+  object-fit: cover;
+}
+
+.people-profile .image-10 {
+  position: absolute;
+  width: 188px;
+  height: 188px;
+  top: 703px;
+  left: 1180px;
+  object-fit: cover;
+}
+
+.people-profile .text-wrapper-5 {
+  position: absolute;
+  height: 20px;
+  top: 181px;
+  left: 183px;
+  font-family: "Gabriela-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.48px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+/* Inject original CSS here */
+
+/* Additional refactored styles */
+body {
+  font-family: "Gabriela-Regular", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  background-color: #3d3b40;
+}
+
+.profile-container {
+  background-color: #3d3b40;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 86px;
+  background-color: #bfcfe7;
+} */
+
+.logo {
+  font-size: 60px;
+  color: #475569;
+  letter-spacing: 0.9px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: #475569;
+  border-radius: 47px;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.48px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  background-color: #2c3e50;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-top: 44px;
+  margin-left: 30px;
+}
+
+.profile-picture {
+  width: 131px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 32px;
+  margin-left: 22px;
+}
+
+.photo-gallery,
+.memories-collection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  padding: 0 32px;
+}
+
+.gallery-image,
+.memory-image {
+  width: 224px;
+  height: 290px;
+  object-fit: cover;
+}
+
+.memories-collection {
+  margin-top: 80px;
+}
+
+.memory-image {
+  width: 188px;
+  height: 188px;
+}
+
+@media (max-width: 1024px) {
+  /* .header {
+    flex-direction: column;
+    padding: 22px;
+  } */
+
+  .nav-list {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .photo-gallery,
+  .memories-collection {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 40px;
+  }
+
+  .nav-item {
+    font-size: 24px;
+    padding: 12px 24px;
+  }
+
+  .profile-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-name {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
